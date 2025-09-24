@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umrbek Ahmedov - Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  * {margin: 0; padding: 0; box-sizing: border-box;}
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #d0f0c0, #fff59d);
+    color: #002366;
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  header h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+  section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .about p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+  }
+  .skills {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skill {
+    background: rgba(0, 35, 102, 0.1);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: transform 0.3s;
+  }
+  .skill:hover {transform: scale(1.1);}
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .project-card {
+    background: rgba(0, 35, 102, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .contact a {
+    text-decoration: none;
+    color: #002366;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  .contact a:hover {color: #ff9800;}
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.05);
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body><header>
+  <h1>Umrbek Ahmedov</h1>
+  <h2>Mobilograf, 31-son maktab</h2>
+</header><section class="about">
+  <h2>About Me</h2>
+  <p>Salom! Men Umrbek Ahmedov, Xorazm viloyati, Yangiariq tumanida yashayman. Mobilograf sifatida faoliyat yuritaman va Yangiariq tumanidagi 31-son maktabda o‘qiyman.</p>
+  <div class="skills">
+    <div class="skill">Fotografiya</div>
+    <div class="skill">Grafik dizayn</div>
+    <div class="skill">IT sohasi</div>
+    <div class="skill">UI/UX</div>
+  </div>
+</section><section class="projects">
+  <h2>My Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>Mobilografik loyiha namoyishi. Hover qilganda batafsil ma’lumot ko‘rinadi.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Video montaj va dizayn ishlari.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 3</h3>
+      <p>UI/UX va mobil interaktiv loyihalar.</p>
+    </div>
+  </div>
+</section><section class="contact">
+  <h2>Contact Me</h2>
+  <a href="tel:+998952473537">Phone: +998 95 247 35 37</a>
+  <a href="https://www.instagram.com/akhmdvv21?igsh=MXNhNjloeGNmb2Z3eQ==" target="_blank">Instagram: @akhmdvv21</a>
+  <a href="https://t.me/ua_social" target="_blank">Telegram: @ua_social</a>
+</section><footer>
+  &copy; 2025 Umrbek Ahmedov. All rights reserved.
+</footer></body>
+</html>
